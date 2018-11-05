@@ -1,0 +1,11 @@
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\bin\Debug\uit_war.exe
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\bin\Debug\uit_war.exe.config
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.csprojAssemblyReference.cache
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.Properties.Resources.resources
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.csproj.GenerateResource.cache
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.csproj.CoreCompileInputs.cache
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.exe
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.pdb
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\bin\Debug\uit_war.pdb
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.MainGameForm.resources
+F:\kemulator\Windroy\uit\source code\uit_war\uit_war\obj\Debug\uit_war.LoginForm.resources
