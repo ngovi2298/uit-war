@@ -173,7 +173,16 @@ namespace uit_war
             this.Controls.Add(picture);
         }
 
-       
+       private void MainGameForm_ControlAdded(object sender, ControlEventArgs e)
+        {
+
+            Thread thread = new Thread(()=> {
+                while (true)
+                {
+                    e.Control.Location = new Point(e.Control.Location.X + 4, e.Control.Location.Y);
+                    //Thread.Sleep(2000);
+                }
+            });
 
         private void timer1_Tick(object sender, EventArgs e)
         {
