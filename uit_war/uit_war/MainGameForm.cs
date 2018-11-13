@@ -17,6 +17,8 @@ namespace uit_war
         CurrentTrop currentTrop;
         List<Trop> listTrops = new List<Trop>();
         List<Trop> listRivalTrops = new List<Trop>();
+        int a = 0;
+        int s = 0;
         #endregion
 
         public MainGameForm()
@@ -58,6 +60,7 @@ namespace uit_war
 
 
             //show picture at clicked position
+            a=a-s;
             Trop trop=null;
             switch(currentTrop)
             {
@@ -174,6 +177,20 @@ namespace uit_war
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            //max of money
+            if (a < 10)
+                a++;
+            //progress of money
+            if (a > 1) pictureBox1.Visible = true; else pictureBox1.Visible = false;
+            if (a > 2) pictureBox2.Visible = true; else pictureBox2.Visible = false;
+            if (a > 3) pictureBox3.Visible = true; else pictureBox3.Visible = false;
+            if (a > 4) pictureBox4.Visible = true; else pictureBox4.Visible = false;
+            if (a > 5) pictureBox5.Visible = true; else pictureBox5.Visible = false;
+            if (a > 6) pictureBox6.Visible = true; else pictureBox6.Visible = false;
+            if (a > 7) pictureBox7.Visible = true; else pictureBox7.Visible = false;
+            if (a > 8) pictureBox8.Visible = true; else pictureBox8.Visible = false;
+            if (a > 9) pictureBox9.Visible = true; else pictureBox9.Visible = false;
+            if (a > 10) pictureBox10.Visible = true; else pictureBox10.Visible = false;
             try
             {
                 MoveTrops();
@@ -183,16 +200,19 @@ namespace uit_war
 
         private void button_minion_clicked(object sender, EventArgs e)
         {
+            s=1
             currentTrop = CurrentTrop.Minion;
         }
 
         private void button_archer_clicked(object sender, EventArgs e)
         {
+            s=2
             currentTrop = CurrentTrop.Archer;
         }
 
         private void button_giant_clicked(object sender, EventArgs e)
         {
+            s=3
             currentTrop = CurrentTrop.Tank;
         }
     }
